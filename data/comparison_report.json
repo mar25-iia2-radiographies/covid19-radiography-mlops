@@ -1,0 +1,27 @@
+{
+  "image": "data/samples/covid_test.png",
+  "mask": "data/samples/covid_mask.png",
+  "preprocessing_identical": true,
+  "max_pixel_difference": 0.0,
+  "predictions_close": true,
+  "class_names": [
+    "COVID",
+    "Normal",
+    "Lung_Opacity",
+    "Viral Pneumonia"
+  ],
+  "reference_probabilities": [
+    0.05521443858742714,
+    1.7363076040055603e-05,
+    0.9447658658027649,
+    2.3127224721974926e-06
+  ],
+  "mlops_probabilities": [
+    0.05521443858742714,
+    1.7363076040055603e-05,
+    0.9447658658027649,
+    2.3127224721974926e-06
+  ],
+  "predicted_class": "Lung_Opacity",
+  "true_class": "COVID"
+}
