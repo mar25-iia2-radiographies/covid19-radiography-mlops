@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Environnement
+.env
+
+# Modèles entraînés
+models/*.keras
+models/*.h5
+
+# Données
+data/raw/
+data/processed/
+
+# Fichiers locaux
+.pytest_cache/
+.coverage
+*.log
+
+# IDE
+.vscode/
+.idea/
